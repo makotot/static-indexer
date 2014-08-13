@@ -1,7 +1,7 @@
 {
   "name": "static-indexer",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Index creation CLI tool for static site.",
   "bin": "./cli.js",
   "scripts": {
     "test": "mocha -R list ./test.js"
