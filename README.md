@@ -11,6 +11,12 @@ $ npm i -g static-indexer
 ## Usage
 
 ```sh
-$ static-indexer [<target dir>]
-```
+$ static-indexer --help
 
+  Usage:
+  $ static-indexer [<target dir>]
+
+  option:
+  --help	Show this message.
+  --o, --output <path>	Specify output file.
+```
