@@ -20,12 +20,12 @@
     "should": "~4.0.4",
     "mocha": "~1.21.4"
   },
-  "keywords": {
+  "keywords": [
     "cli",
     "json",
     "static site",
     "html",
     "generator",
     "index"
-  }
+  ]
 }
