@@ -8,4 +8,9 @@
 $ npm i -g static-indexer
 ```
 
+## Usage
+
+```sh
+$ static-indexer [<target dir>]
+```
 

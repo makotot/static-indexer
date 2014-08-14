@@ -1,12 +1,13 @@
 {
   "name": "static-indexer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Index creation CLI tool for static site.",
   "bin": "./cli.js",
   "scripts": {
     "test": "mocha -R list ./test.js"
   },
-  "author": "",
+  "author": "makotot",
+  "repository": "makotot/static-indexer",
   "license": "MIT",
   "dependencies": {
     "minimist": "~1.1.0",
@@ -18,5 +19,13 @@
   "devDependencies": {
     "should": "~4.0.4",
     "mocha": "~1.21.4"
+  },
+  "keywords": {
+    "cli",
+    "json",
+    "static site",
+    "html",
+    "generator",
+    "index"
   }
 }

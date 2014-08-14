@@ -7,7 +7,6 @@ var argv = require('minimist')(process.argv.slice(2));
 
 function help () {
   console.log([
-    '  Static-Indexer',
     '',
     '  Usage:',
     '  $ static-indexer [<target dir>]',
