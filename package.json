@@ -1,6 +1,6 @@
 {
   "name": "static-indexer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Index creation CLI tool for static site.",
   "bin": "./cli.js",
   "scripts": {

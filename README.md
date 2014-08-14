@@ -2,3 +2,10 @@
 
 > Index creation CLI tool for static site.
 
+## Install
+
+```sh
+$ npm i -g static-indexer
+```
+
+

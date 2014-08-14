@@ -10,7 +10,7 @@ function help () {
     '  Static-Indexer',
     '',
     '  Usage:',
-    '  $ static-indexer [<target path>]',
+    '  $ static-indexer [<target dir>]',
     '',
     '  option:',
     '  --help	Show this message.',
@@ -32,7 +32,7 @@ indexer(argv._[0], argv, function (err, jsonPath, index) {
 
   console.log([
     '  ' + jsonPath + ' is successfully created.',
-    '  ' + index.length + ((index.length > 2) ? ' pages' : ' page') + ' is indexed.',
+    '  ' + index.length + ((index.length > 2) ? ' pages are ' : ' page is ') + 'indexed.',
     ''
   ].join('\n'));
 });
